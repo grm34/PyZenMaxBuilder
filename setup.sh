@@ -89,4 +89,4 @@ do
 done
 echo -e "\n${RED}Exiting...${NC}"
 kill -9 $$ ${BASHPID}
-exec ${SHELL}
+exec "${SHELL}"
