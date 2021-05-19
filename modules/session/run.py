@@ -16,8 +16,6 @@
     limitations under the License.
 """
 import logging
-import os
-import sys
 from shutil import copyfile
 
 import inquirer
