@@ -1,0 +1,2 @@
+inquirer>=2.7.0
+coloredlogs>=15.0

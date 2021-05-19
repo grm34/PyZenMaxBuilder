@@ -1,0 +1,327 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR 2021, darkmaster@grm34 - NetErnels Team
+# This file is distributed under the same license as the ZenMaxBuilder package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ZenMaxBuilder\n"
+"Report-Msgid-Bugs-To: darkmaster@grm34\n"
+"POT-Creation-Date: 2021-05-19 20:51+0200\n"
+"PO-Revision-Date: 2021-05-19 20:53+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: modules/cloner/anykernel.py:38
+msgid "cloning AnyKernel in android..."
+msgstr "cloning AnyKernel in android..."
+
+#: modules/cloner/anykernel.py:47
+msgid "failed to clone AnyKernel!"
+msgstr "failed to clone AnyKernel!"
+
+#: modules/cloner/toolchains.py:56
+#, python-brace-format
+msgid "cloning {toolchain} in android/toolchains..."
+msgstr "cloning {toolchain} in android/toolchains..."
+
+#: modules/cloner/toolchains.py:67
+#, python-brace-format
+msgid "failed to clone {toolchain}!"
+msgstr "failed to clone {toolchain}!"
+
+#: modules/cloner/zipsigner.py:37
+msgid "downloading ZipSigner in android/tools..."
+msgstr "downloading ZipSigner in android/tools..."
+
+#: modules/cloner/zipsigner.py:45
+msgid "failed to download Zipsigner!"
+msgstr "failed to download Zipsigner!"
+
+#: modules/compiler/build.py:35
+#, python-brace-format
+msgid "make {build}..."
+msgstr "make {build}..."
+
+#: modules/compiler/build.py:60
+msgid "successfully compiled !"
+msgstr "successfully compiled !"
+
+#: modules/compiler/clean.py:41
+#, python-brace-format
+msgid "make clean and MrProper ({version})..."
+msgstr "make clean and MrProper ({version})..."
+
+#: modules/compiler/clean.py:58
+#, python-brace-format
+msgid "cleaning {out}..."
+msgstr "cleaning {out}..."
+
+#: modules/compiler/clean.py:63
+msgid "successfully cleaned !"
+msgstr "successfully cleaned !"
+
+#: modules/compiler/defconfig.py:35
+#, python-brace-format
+msgid "make {defconfig}..."
+msgstr "make {defconfig}..."
+
+#: modules/compiler/menuconfig.py:35
+msgid "make menuconfig..."
+msgstr "make menuconfig..."
+
+#: modules/inquirer/mode.py:43
+msgid "Select the desired mode"
+msgstr "Select the desired mode"
+
+#: modules/inquirer/mode.py:48
+msgid "Build new android kernel"
+msgstr "Build new android kernel"
+
+#: modules/inquirer/mode.py:49
+msgid "Create/edit with menuconfig"
+msgstr "Create/edit with menuconfig"
+
+#: modules/inquirer/mode.py:50
+msgid "Create flashable zip"
+msgstr "Create flashable zip"
+
+#: modules/inquirer/mode.py:51
+msgid "Sign flashable zip"
+msgstr "Sign flashable zip"
+
+#: modules/inquirer/mode.py:52
+msgid "Run make clean/mrproper"
+msgstr "Run make clean/mrproper"
+
+#: modules/inquirer/mode.py:53
+msgid "Return to terminal"
+msgstr "Return to terminal"
+
+#: modules/inquirer/save.py:51
+#, python-brace-format
+msgid "Do you wish to save copy of modified {config}"
+msgstr "Do you wish to save copy of modified {config}"
+
+#: modules/inquirer/save.py:64
+msgid "Enter defconfig name (e.q. new_defconfig)"
+msgstr "Enter defconfig name (e.q. new_defconfig)"
+
+#: modules/inquirer/session.py:52
+msgid "Enter device codename (e.q. ASUS_X00TD)"
+msgstr "Enter device codename (e.q. ASUS_X00TD)"
+
+#: modules/inquirer/session.py:69
+msgid "Select the compiler to use"
+msgstr "Select the compiler to use"
+
+#: modules/inquirer/session.py:86
+msgid "Select the defconfig to use"
+msgstr "Select the defconfig to use"
+
+#: modules/inquirer/session.py:100
+msgid "Select the kernel image to zip"
+msgstr "Select the kernel image to zip"
+
+#: modules/inquirer/session.py:114
+msgid "Select the zip(s) to sign"
+msgstr "Select the zip(s) to sign"
+
+#: modules/inquirer/session.py:129
+#, python-brace-format
+msgid "Do you wish to edit {defconfig} with menuconfig"
+msgstr "Do you wish to edit {defconfig} with menuconfig"
+
+#: modules/inquirer/session.py:142
+#, python-brace-format
+msgid "Do you wish to use all cores ➡ {proc}"
+msgstr "Do you wish to use all cores ➡ {proc}"
+
+#: modules/inquirer/session.py:156
+msgid "Enter the amount of CPU cores to use"
+msgstr "Enter the amount of CPU cores to use"
+
+#: modules/inquirer/session.py:172
+#, python-brace-format
+msgid "Do you wish to make clean & mrproper ➡ {kv}"
+msgstr "Do you wish to make clean & mrproper ➡ {kv}"
+
+#: modules/inquirer/session.py:189
+#, python-brace-format
+msgid "Do you wish to start new build ➡ {team}{codename}-{kv}"
+msgstr "Do you wish to start new build ➡ {team}{codename}-{kv}"
+
+#: modules/inquirer/session.py:212
+msgid "Do you wish to zip selected kernel image"
+msgstr "Do you wish to zip selected kernel image"
+
+#: modules/inquirer/session.py:224
+msgid "Do you wish to sign selected kernel(s)"
+msgstr "Do you wish to sign selected kernel(s)"
+
+#: modules/inquirer/validator.py:46
+#, python-brace-format
+msgid "Invalid defconfig name: {response} (e.q., new_defconfig)"
+msgstr "Invalid defconfig name: {response} (e.q., new_defconfig)"
+
+#: modules/inquirer/validator.py:85
+#, python-brace-format
+msgid "Invalid device codename: {response} (e.q., ASUS_X00TD)"
+msgstr "Invalid device codename: {response} (e.q., ASUS_X00TD)"
+
+#: modules/inquirer/validator.py:119
+#, python-brace-format
+msgid "Invalid entry: {response} ﴾{proc} ➟ {cores} CORE(s)﴿"
+msgstr "Invalid entry: {response} ﴾{proc} ➟ {cores} CORE(s)﴿"
+
+#: modules/inquirer/validator.py:156
+msgid "You must select at least one element..."
+msgstr "You must select at least one element..."
+
+#: modules/main/banner.py:47
+msgid ""
+"  Arrow keys to navigate    ↓\n"
+"                    Space to select options   ↔\n"
+"                    Enter to confirm          ⇲\n"
+msgstr ""
+"  Arrow keys to navigate    ↓\n"
+"                    Space to select options   ↔\n"
+"                    Enter to confirm          ⇲\n"
+
+#: modules/manager/error.py:65
+#, python-brace-format
+msgid "[kernel] {path} not found !"
+msgstr "[kernel] {path} not found !"
+
+#: modules/manager/error.py:70
+msgid "use --kernel-folder option or edit app/settings.py"
+msgstr "use --kernel-folder option or edit app/settings.py"
+
+#: modules/manager/error.py:83
+#, python-brace-format
+msgid "[kernel] {path} is not an android kernel tree !"
+msgstr "[kernel] {path} is not an android kernel tree !"
+
+#: modules/manager/error.py:103
+#, python-brace-format
+msgid "[defconfig] {path} not found !"
+msgstr "[defconfig] {path} not found !"
+
+#: modules/manager/error.py:108 modules/obtainer/defconfigs.py:47
+msgid "use --defconfig-folder option or edit app/settings.py"
+msgstr "use --defconfig-folder option or edit app/settings.py"
+
+#: modules/manager/error.py:127
+#, python-brace-format
+msgid "[out] {path} not found !"
+msgstr "[out] {path} not found !"
+
+#: modules/manager/error.py:132
+msgid "use --out-folder option or edit app/settings.py"
+msgstr "use --out-folder option or edit app/settings.py"
+
+#: modules/manager/error.py:152
+#, python-brace-format
+msgid "[kernel img] {path} not found !"
+msgstr "[kernel img] {path} not found !"
+
+#: modules/manager/error.py:173
+#, python-brace-format
+msgid "[zip] {path} not found !"
+msgstr "[zip] {path} not found !"
+
+#: modules/manager/error.py:178 modules/obtainer/zips.py:49
+msgid "use --zip-folder option or edit app/settings.py"
+msgstr "use --zip-folder option or edit app/settings.py"
+
+#: modules/obtainer/defconfigs.py:43
+#, python-brace-format
+msgid "no defconfig files found in: {path}"
+msgstr "no defconfig files found in: {path}"
+
+#: modules/obtainer/devices.py:36
+msgid "Get android devices list..."
+msgstr "Get android devices list..."
+
+#: modules/obtainer/devices.py:41
+msgid "failed to get android devices list"
+msgstr "failed to get android devices list"
+
+#: modules/obtainer/devices.py:43
+msgid "use --codename option or edit app/settings.py"
+msgstr "use --codename option or edit app/settings.py"
+
+#: modules/obtainer/images.py:48
+#, python-brace-format
+msgid "no kernel image found in: {path}"
+msgstr "no kernel image found in: {path}"
+
+#: modules/obtainer/images.py:52
+msgid "use --img-folder option or edit app/settings.py"
+msgstr "use --img-folder option or edit app/settings.py"
+
+#: modules/obtainer/processor.py:45
+msgid "failed to get processor"
+msgstr "failed to get processor"
+
+#: modules/obtainer/processor.py:51
+msgid "failed to get CPU cores"
+msgstr "failed to get CPU cores"
+
+#: modules/obtainer/version.py:42
+msgid "failed to make kernel version"
+msgstr "failed to make kernel version"
+
+#: modules/obtainer/zips.py:45
+#, python-brace-format
+msgid "no flashable zip found in: {path}"
+msgstr "no flashable zip found in: {path}"
+
+#: modules/session/run.py:77
+msgid "successfully saved"
+msgstr "successfully saved"
+
+#: modules/session/run.py:89
+msgid "saving build logs to android/logs..."
+msgstr "saving build logs to android/logs..."
+
+#: modules/session/settings.py:72 modules/session/settings.py:80
+#: modules/session/settings.py:86 modules/session/settings.py:96
+msgid "checking current kernel version..."
+msgstr "checking current kernel version..."
+
+#: modules/zipper/config.py:35
+msgid "configuring anykernel..."
+msgstr "configuring anykernel..."
+
+#: modules/zipper/makezip.py:34
+msgid "copy kernel image to AnyKernel..."
+msgstr "copy kernel image to AnyKernel..."
+
+#: modules/zipper/makezip.py:71
+#, python-brace-format
+msgid "creating {build}.zip..."
+msgstr "creating {build}.zip..."
+
+#: modules/zipper/makezip.py:91
+msgid "successfully zipped !"
+msgstr "successfully zipped !"
+
+#: modules/zipper/makezip.py:92
+msgid "AnyKernel folder cleaned !"
+msgstr "AnyKernel folder cleaned !"
+
+#: modules/zipper/signer.py:43
+#, python-brace-format
+msgid "signing {zip}.zip..."
+msgstr "signing {zip}.zip..."
+
+#: modules/zipper/signer.py:55
+msgid "successfully signed !"
+msgstr "successfully signed !"

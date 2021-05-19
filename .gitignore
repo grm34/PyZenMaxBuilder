@@ -1,0 +1,14 @@
+# Cache
+__pycache__
+
+# Logs
+*.log
+
+# VSCode
+.vscode
+
+# User data
+android
+
+# Locales
+*.po~

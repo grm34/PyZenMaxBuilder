@@ -1,0 +1,16 @@
+{
+    "name": "ZenMaxBuilder",
+    "author": "darkmaster",
+    "license": "Apache License 2.0",
+    "description": "Android Kernel Builder ㉿ ZMB NetErnels Team",
+    "url": "https://github.com/grm34/ZenMaxBuilder",
+    "usage": "python3 zmb.py [options]",
+    "language": "en",
+    "ascii0": "",
+    "ascii1": " ┌──────────────────────────────────────────────┐",
+    "ascii2": " │  ╔═╗┌─┐┌┐┌  ╔╦╗┌─┐─┐ ┬  ╔╗ ┬ ┬┬┬  ┌┬┐┌─┐┬─┐  │",
+    "ascii3": " │  ╔═╝├┤ │││  ║║║├─┤┌┴┬┘  ╠╩╗│ │││   ││├┤ ├┬┘  │",
+    "ascii4": " │  ╚═╝└─┘┘└┘  ╩ ╩┴ ┴┴ └─  ╚═╝└─┘┴┴─┘─┴┘└─┘┴└─  │",
+    "ascii5": " │ Android Kernel Builder ㉿ ZMB NetErnels Team │",
+    "ascii6": " └──────────────────────────────────────────────┘\n"
+}
