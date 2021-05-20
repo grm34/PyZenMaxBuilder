@@ -45,7 +45,7 @@ def run_session(self):
         5) "Make zip"
         6) "Sign zip"
     """
-   # Make clean/mrproper
+    # Make clean/mrproper
     if self.session['answers']['cleanbuild'] is True:
         make_clean(self)
 
