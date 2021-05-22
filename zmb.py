@@ -151,7 +151,7 @@ class ZenMaxBuilder:
         options_manager(self)
         self.trad = app_translator(self.language)
 
-        # Prevent
+        # Prevent wrong settings
         prevent_kernel_folder(self)
         prevent_defconfig_folder(self)
         prevent_out_folder(self)
